@@ -2,14 +2,11 @@
 <head>
 <meta charset="utf-8">
 <title>Bakalárska práca</title>
-<link rel="icon" href="title.png" type="image/icon type">
 </head>
 <body>
-<header>
-<h1>Moja pracovná stránka</h1>
-</header>
-<section>
-<h2>Bakalárska práca</h2>
+<h1>Bakalárska práca</h1>
+<div class="popis" style="border : solid; width : 50%; padding : 10px; margin-bottom : 40px;">
+<h3>Popis</h3>
 <p><strong>Meno a priezvisko: </strong>Lukáš Vilim</p>
 <p><strong>Kontakt: </strong><a href="mailto:vilim3@uniba.sk">vilim3@uniba.sk</a></p>
 <p><strong>Názov práce: </strong>Počítanie obsadenosti parkoviska pomocou kamery</p>
@@ -23,7 +20,9 @@ nevidno a nemajú žiadny iný signál, že je parkovisko plné.</p>
 a implementovať aplikáciu, ktorá umožní jednoduché počítanie áut
 prichádzajúcich a odchádzajúcich z parkoviska a porovná ho s vyznačenou
 kapacitou parkoviska. Úspešnosť aplikácie otestuje na reálnych dátach.</p>
-</section>
-<footer>vytvoril <strong>Lukáš Vilim</strong></footer>
+</div>
+  
+  
+
 </body>
 </html>
