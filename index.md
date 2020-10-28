@@ -1,7 +1,7 @@
-#Bakalárska práca
-</head>
-<body>
-<h1>Bakalárska práca</h1>
+# Bakalárska práca
+
+
+** akalárska práca **
 <div class="popis" style="border : solid; width : 50%; padding : 10px; margin-bottom : 40px;">
 <h3>Popis</h3>
 <p><strong>Meno a priezvisko: </strong>Lukáš Vilim</p>
