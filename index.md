@@ -3,9 +3,13 @@
 
 ### Popis ###
 ** Meno a priezvisko: ** Lukáš Vilim
+
 ** Kontakt: ** vilim3@uniba.sk
+
 ** Názov práce: ** Počítanie obsadenosti parkoviska pomocou kamery
+
 ** Vedúci: ** doc. RNDr. Milan Ftáčnik, CSc.
+
 ** Katedra: ** FMFI.KAI - Katedra aplikovanej informatiky
 
 ** Anotácia: ** Na miestach, kde je veľký záujem o parkovanie (ako napr. cez deň pred
