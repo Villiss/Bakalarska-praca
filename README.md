@@ -1,1 +1,1 @@
-# Bakalarska praca
+# Bakalárska práca
