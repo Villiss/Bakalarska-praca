@@ -1,7 +1,4 @@
-<html>
-<head>
-<meta charset="utf-8">
-<title>Bakalárska práca</title>
+#Bakalárska práca
 </head>
 <body>
 <h1>Bakalárska práca</h1>
