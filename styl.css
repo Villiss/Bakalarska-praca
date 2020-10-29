@@ -1,0 +1,29 @@
+﻿body {
+	margin: 0;
+	background-color:lightblue;
+
+}
+p {
+	color: white;
+}
+
+h1 {
+	color: black;
+	padding: 1em;
+	margin: 0;
+	text-align:center;
+}
+
+h3{
+	color: white;
+}
+
+.popis {
+
+	text-align:center;
+	margin: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em;
+	background: brown;
+}
