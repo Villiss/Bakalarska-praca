@@ -1,42 +1,104 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Bakalárska práca</title>
-<link href="styl.css" rel="stylesheet" media="all">
-<link rel="icon" href="title.png" type="image/icon type">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakalárska práca</title>
+    <link href="styl.css" rel="stylesheet" media="all">
+    <link rel="icon" href="title.png" type="image/icon type">
 </head>
+<header>
+    <nav>
+        <h1>Bakalárska práca</h1>
+    </nav>
+</header>
 <body>
-<h1>Bakalárska práca</h1>
-<div class="popis" style="border : solid; width : 50%; padding : 10px; margin-bottom : 40px;">
-<h3>Popis</h3>
-<p><strong>Meno a priezvisko: </strong>Lukáš Vilim</p>
-<p><strong>Kontakt: </strong><a href="mailto:vilim3@uniba.sk">vilim3@uniba.sk</a></p>
-<p><strong>Názov práce: </strong>Počítanie obsadenosti parkoviska pomocou kamery</p>
-<p><strong>Školiteľ: </strong>doc. RNDr. Milan Ftáčnik, CSc.</p>
-<p><strong>Katedra: </strong>FMFI.KAI - Katedra aplikovanej informatiky</p>
-<p><strong>Anotácia: </strong>Na miestach, kde je veľký záujem o parkovanie (ako napr. cez deň pred
-Matematickým pavionom FMFI UK), ale nie je tam žiadna regulácia, často
-motoristi vchádzajú do parkoviska, ktoré je plne obsadené, lebo to pri vjazde
-nevidno a nemajú žiadny iný signál, že je parkovisko plné.</p>
-<p><strong>Cieľ: </strong>Cieľom práce je s využitím metód spracovania obrazu navrhnúť
-a implementovať aplikáciu, ktorá umožní jednoduché počítanie áut
-prichádzajúcich a odchádzajúcich z parkoviska a porovná ho s vyznačenou
-kapacitou parkoviska. Úspešnosť aplikácie otestuje na reálnych dátach.</p>
-</div>
+    <main>
+        <div id="popis">
+            <h3>Popis</h3>
+            <ul>
+                <li>
+                    <p><strong>Meno a priezvisko: </strong>Lukáš Vilim</p>
+                </li>
+                <li>
+                    <p><strong>Kontakt: </strong><a href="mailto:vilim3@uniba.sk">vilim3@uniba.sk</a></p>
+                </li>
+                <li>
+                    <p><strong>Názov práce: </strong>Počítanie obsadenosti parkoviska pomocou kamery</p>
+                </li>
+                <li>
+                    <p><strong>Školiteľ: </strong>doc. RNDr. Milan Ftáčnik, CSc.</p>
+                </li>
+                <li>
+                    <p><strong>Katedra: </strong>FMFI.KAI - Katedra aplikovanej informatiky</p>
+                </li>
+                <li>
+                    <p><strong>Anotácia: </strong>Na miestach, kde je veľký záujem o parkovanie (ako napr. cez deň pred
+                        Matematickým pavionom FMFI UK), ale nie je tam žiadna regulácia, často
+                        motoristi vchádzajú do parkoviska, ktoré je plne obsadené, lebo to pri vjazde
+                        nevidno a nemajú žiadny iný signál, že je parkovisko plné.</p>
+                </li>
+                <li>
+                    <p><strong>Cieľ: </strong>Cieľom práce je s využitím metód spracovania obrazu navrhnúť
+                        a implementovať aplikáciu, ktorá umožní jednoduché počítanie áut
+                        prichádzajúcich a odchádzajúcich z parkoviska a porovná ho s vyznačenou
+                        kapacitou parkoviska. Úspešnosť aplikácie otestuje na reálnych dátach.</p>
+                </li>
+            </ul>
+        </div>
+        <div id="plan">
+            <h3>Časový plán</h3>
+            <ul>
+                <li>
+                    <p><strong>17.10.2020 </strong>Výber témy.</p>
+            
+                </li>
+                <li>
+                    <p><strong>29.10.2020 </strong>Vytvorená webová stránka k bakalárskej práci.</p>
+                </li>
+                <li>
+                    <p><strong>10.11.2020 </strong>Vytvorený časový plán bakalárskej práce.</p>
+                </li>
+                <li>
+                    <p><strong>do 1.12.2020 </strong>Zbieranie zdrojov.</p>
+                </li>
+                <li>
+                    <p><strong>15.1.2021 </strong>Prehľad o problematike - spísať Východiská a prototypy práce</p>
+                </li>
+                <li>
+                    <p><strong>15.2.2021 </strong>Moje riešenie - akým spôsobom sa do toho pustím</p>
+                </li>
+                <li>
+                    <p><strong>30.3.2021 </strong>Implementácia - realizácia mojich riešení</p>
+                </li>
+                <li>
+                    <p><strong>30.4.2021 </strong>Experimenty a výsledky</p>
+                </li>
+                <li>
+                    <p><strong>17.5.2021 </strong>Odovzdávanie</p>
+                </li>
+            </ul>
+        </div>
+        <div id="zdroje">
+            <h3>
+                Zdroje
+            </h3>
+            <ul>
+                <li>
 
-<div class="popis" style="border : solid; width : 50%; padding : 10px; margin-bottom : 40px;">
-<h3>Časový plán</h3>
-<h4>17.10.2020 </h4>
-<p>Výber témy.</p>
-<h4>29.10.2020 </h4>
-<p>Vytvorená webová stránka k bakalárskej práci.</p>
-<h4>10.11.2020 </h4>
-<p>Vytvorený časový plán bakalárskej práce.</p>
-<h4>do 1.12.2020 </h4>
-<p>Zbieranie zdrojov.</p>
-<h4>15.1.2021 </h4>
-<p>Východiská a prototyp bakalárskej práce. (aspoň 10 strán)</p>
-</div>
+                </li>
+            </ul>
+        </div>
+        <div id="prototyp">
+            <h3>
+                Východiská a prototyp
+            </h3>
+            <ul>
+                <li>
+                    
+                </li>
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
